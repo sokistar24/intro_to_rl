@@ -50,7 +50,7 @@ Open a notebook and run the code cell below to install the gymnasium API for fro
 ```bash
 pip install gymnasium[toy-text]
 ```
-for detailed work true code clone this repo 
+for detailed code walk through  clone this repo 
 ```bash
-gitclone 
+git clone https://github.com/sokistar24/intro_to_rl.git
 ```
