@@ -30,7 +30,10 @@ To run this project, you will need to have anaconda or mini conda already instal
 create a virtual environment with the following.
 
 ### Installing Dependencies
-
+for detailed code walk through  clone this repo 
+```bash
+git clone https://github.com/sokistar24/intro_to_rl.git
+```
 ```bash
 conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib
 ```
@@ -39,18 +42,15 @@ Activate the environment uisng
 conda activate intro_to_rl
 
 ```
-Alternatively this code provided still work on google colab, however please note you may not be able to visualize the trained agent  
+Open a notebook and run the code cell below to install the gymnasium API for frozen lake
+```bash
+pip install gymnasium[toy-text]
+```
+
 ## Usage 
 To start the JupyterLab server, run the following command 
 in the terminal or command prompt:
 ```bash
 jupyter-lab
 ```
-Open a notebook and run the code cell below to install the gymnasium API for frozen lake
-```bash
-pip install gymnasium[toy-text]
-```
-for detailed work true code clone this repo 
-```bash
-gitclone 
-```
+Alternatively this code provided still work on google colab, however please note you may not be able to visualize the trained agent  
